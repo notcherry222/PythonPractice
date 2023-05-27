@@ -1,6 +1,6 @@
 class Unit :
     #이닛함수는 생성자
-    #멤버변수 : name, hp같은 것들
+    #멤버변수 : name, hp
     def __init__(self, name, hp):
         self.name =name
         self.hp = hp

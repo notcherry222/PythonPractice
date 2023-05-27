@@ -5,7 +5,7 @@
 # 프로그램 종료 메시지 출력 : 재고소진
 
 class soldOutError(Exception):
-    pass
+     pass
 
 chicken = 10
 waiting = 1
@@ -28,5 +28,5 @@ while(True) :
     except ValueError :
         print("wrong")
     except soldOutError :
-        print("재고 소진")
+        print("재료 소진")
         break
